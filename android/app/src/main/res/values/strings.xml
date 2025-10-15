@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Synesis Risk</string>
+    <string name="title_activity_main">Synesis Risk</string>
+    <string name="package_name">com.synesis.risk</string>
+    <string name="custom_url_scheme">com.synesis.risk</string>
+</resources>
