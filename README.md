@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Synesis β — Beef Risk PWA
 
 Agentic beef nutrition & management copilot. **Beta version** with enhanced Android support and scenario management.
@@ -139,3 +140,7 @@ MIT License - see LICENSE file for details.
 ---
 
 **Synesis β** - *Beef Risk Management, Enhanced for Mobile* 🐄📱
+=======
+# SynesisBeta
+Synesis — Monorepo del Beef Copilot: asistente de nutrición y gestión para toma de decisiones y gemelo digital en feedlot (AR). PWA offline + Dexie.
+>>>>>>> c1db1f9ba9ef466eb8a2fdd996a8422618fb9ec7
