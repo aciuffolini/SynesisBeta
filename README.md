@@ -3,7 +3,7 @@
 
 Agentic beef nutrition & management copilot. **Beta version** with enhanced Android support and scenario management.
 
-🌐 **[Live App](https://aciuffolini.github.io/SynesisBeta/)** | 📱 **Android Ready** | 💾 **Offline-First**
+🌐 **[Live App](https://aciuffolini.github.io/SynesisBeta/)** | 📱 **[Mobile Testing Guide](MOBILE_TESTING.md)** | 💾 **Offline-First**
 
 ## ✨ **New Features in Beta**
 
@@ -27,10 +27,14 @@ Agentic beef nutrition & management copilot. **Beta version** with enhanced Andr
 
 ## 🚀 **Quick Start**
 
-### **Live Demo**
-Visit the **[live application](https://aciuffolini.github.io/SynesisBeta/)** to try it immediately.
+### **📱 Mobile Testing (3 Steps)**
+1. **Open your phone's browser**
+2. **Go to**: https://aciuffolini.github.io/SynesisBeta/
+3. **Install as PWA**: Look for "Add to Home Screen"
+   
+   **[📱 Detailed Mobile Testing Guide](MOBILE_TESTING.md)**
 
-### **Local Development**
+### **💻 Local Development**
 ```bash
 npm ci
 npm run dev

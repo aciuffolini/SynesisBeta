@@ -17,7 +17,11 @@ function OnlineBadge(){
 }
 
 function Root(){
-  React.useEffect(()=>{ initSW(); },[]);
+  React.useEffect(()=>{ 
+    if (import.meta.env.MODE === "gh" && "serviceWorker" in navigator) {
+      initSW(); 
+    }
+  },[]);
   return (<>
     <OnlineBadge />
     <RiskSimApp />

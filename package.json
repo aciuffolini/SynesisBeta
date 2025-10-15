@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:gh": "tsc -b && vite build --mode gh",
+    "build:android": "tsc -b && vite build --mode native",
     "lint": "eslint .",
     "preview": "vite preview",
-    "android:dev": "NODE_ENV=development npm run build && npx cap sync android && npx cap run android",
-    "android:build": "NODE_ENV=development npm run build && npx cap sync android && npx cap build android",
+    "android:dev": "npm run build:android && npx cap sync android && npx cap run android",
+    "android:build": "npm run build:android && npx cap sync android && npx cap build android",
     "android:open": "npx cap open android",
     "android:sync": "npx cap sync android"
   },
