@@ -3,7 +3,7 @@
 
 Agentic beef nutrition & management copilot. **Beta version** with enhanced Android support and scenario management.
 
-🌐 **[Live App](https://aciuffolini.github.io/synesisbeta/)** | 📱 **Android Ready** | 💾 **Offline-First**
+🌐 **[Live App](https://aciuffolini.github.io/SynesisBeta/)** | 📱 **Android Ready** | 💾 **Offline-First**
 
 ## ✨ **New Features in Beta**
 
@@ -28,7 +28,7 @@ Agentic beef nutrition & management copilot. **Beta version** with enhanced Andr
 ## 🚀 **Quick Start**
 
 ### **Live Demo**
-Visit the **[live application](https://aciuffolini.github.io/synesisbeta/)** to try it immediately.
+Visit the **[live application](https://aciuffolini.github.io/SynesisBeta/)** to try it immediately.
 
 ### **Local Development**
 ```bash
@@ -111,7 +111,7 @@ npm run android:sync    # Sync web assets to Android
 
 This app is automatically deployed to GitHub Pages on every push to `main` branch.
 
-- **Live URL**: https://aciuffolini.github.io/synesisbeta/
+- **Live URL**: https://aciuffolini.github.io/SynesisBeta/
 - **Source**: This repository
 - **Build**: GitHub Actions workflow
 

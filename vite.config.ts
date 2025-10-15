@@ -3,7 +3,7 @@ import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? "/synesisbeta/" : "/", // 👈 GitHub Pages vs Android
+  base: process.env.NODE_ENV === 'production' ? "/SynesisBeta/" : "/", // 👈 GitHub Pages vs Android
   plugins: [
     react(),
     VitePWA({
@@ -11,8 +11,8 @@ export default defineConfig({
       manifest: {
         name: "Synesis Risk",
         short_name: "Synesis",
-        start_url: process.env.NODE_ENV === 'production' ? "/synesisbeta/" : "/",
-        scope: process.env.NODE_ENV === 'production' ? "/synesisbeta/" : "/",
+        start_url: process.env.NODE_ENV === 'production' ? "/SynesisBeta/" : "/",
+        scope: process.env.NODE_ENV === 'production' ? "/SynesisBeta/" : "/",
         display: "standalone",
         background_color: "#000000",
         theme_color: "#000000",
