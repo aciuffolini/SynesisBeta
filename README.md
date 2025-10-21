@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Synesis β — Beef Risk PWA
 
 Agentic beef nutrition & management copilot. **Beta version** with enhanced Android support and scenario management.
